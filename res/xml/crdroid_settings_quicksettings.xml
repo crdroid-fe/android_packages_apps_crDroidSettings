@@ -171,6 +171,13 @@
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
 
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_widgets_enabled"
+            android:title="@string/qs_widgets_enabled_title"
+            android:summary="@string/qs_widgets_enabled_summary"
+            android:defaultValue="false"
+            lineage:position="top" />
+
         <ListPreference
             android:key="qs_tile_ui_style"
             android:icon="@drawable/ic_shapes"
